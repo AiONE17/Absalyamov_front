@@ -1,0 +1,60 @@
+<div class = "header">
+    <h1>
+      <svg width="20">
+        <rect fill="#fc0"
+          width="20"
+          height="20"/>
+        <line stroke="black"
+          x1="0" y1="0"
+          x2="20" y2="20"/>
+      </svg>
+      Игрушечка
+    </h1>
+    <nav>
+      <ul>
+        <a>Home </a>
+        <a routerLink="PlayerCards" routerLinkActive="active">PlayerCards </a>
+        <a routerLink="users" routerLinkActive="active">Users </a>
+        <a routerLink="auth" routerLinkActive="active">Auth </a>
+      </ul>
+    </nav>
+  </div>
+  
+    <router-outlet></router-outlet>
+  
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify">About</p>
+        </div>
+  
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="">Links</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Cross Platform 2022
+          </p>
+        </div>
+  
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
